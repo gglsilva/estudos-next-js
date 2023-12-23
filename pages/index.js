@@ -1,12 +1,18 @@
-import { Inter } from 'next/font/google'
 import Style from '../styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
-      <h1 className={Style.title}>Hello World Next.js</h1>
+      <Head>
+        <title>Página Principal</title>
+        <meta name='keyworkds' content='Roupas, Calçados, Bonês'></meta>
+      </Head>
+      <div>
+        <h1 className={Style.title}>Hello World Next.js</h1>
+      </div>
+      
     </>
   )
 }

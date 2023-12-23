@@ -7,17 +7,22 @@ export default function Navbar(){
       <ul className={styles.navbar}>
         <li>
           <Link href="/">
-            <p>Home</p>
+            Home
           </Link>
         </li>
         <li>
           <Link href="/products">
-            <p>Produtos</p>
+            Produtos
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <p>Sobre</p>
+            Sobre
+          </Link>
+        </li>
+        <li>
+          <Link href="/contact">
+            Contato
           </Link>
         </li>
       </ul>

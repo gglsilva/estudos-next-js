@@ -4,13 +4,13 @@
     padding: 20px 10px;
 }
 
-.navbar p{
+.navbar a{
     color: #FFF;
     margin-right: 1em;
     text-decoration: none;
     transition: .3s;
 }
 
-.navbar p:hover{
+.navbar a:hover{
     color: #999;
 }
