@@ -9,7 +9,7 @@ export default function Comment(){
 
     return(
         <>
-            <Link href={`/todo/${todoId}`}>
+            <Link href={`/todos/${todoId}`}>
                 Voltar
             </Link>
             <h1>Exibindo o comentário número: {commentId}</h1>
